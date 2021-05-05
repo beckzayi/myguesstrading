@@ -1,9 +1,15 @@
 import React from 'react';
+import Head from './head';
 
-export default props => {
+const Layout = props => {
   return (
-    <main id="content">
-      {props.children}
-    </main>
+    <>
+      <Head {...props} />
+      <main id="content">
+        {props.children}
+      </main>
+    </>
   );
 };
+
+export default Layout;
