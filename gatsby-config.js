@@ -1,6 +1,15 @@
 module.exports = {
   plugins: [
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'Playfair Display',
+          'Fira Sans'
+        ]
+      }
+    }
   ],
   siteMetadata: {
     title: 'My Guess Trading',

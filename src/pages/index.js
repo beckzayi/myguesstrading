@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Index = () => (
-  <div>Hello</div>
+  <div>
+    <h1>Robert</h1>
+    Hello
+  </div>
 );
 
 export default Index;
