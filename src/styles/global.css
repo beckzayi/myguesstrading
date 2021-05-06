@@ -5,3 +5,57 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.bg-blue {
+  background: #0b6890;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header .nav-link {
+  color: #b5b5b5;
+  position: relative;
+  font-size: 0.875rem;
+}
+
+.header .nav-link:hover:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+
+.header .nav-link.current-page {
+  color: white;
+}
+
+.banner-wrap {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  width: 920px;
+  text-align: center;
+}
+
+.banner-description {
+  font-size: 0.875rem;
+}

@@ -1,8 +1,10 @@
 import React from 'react';
+import Banner from '../components/banner';
 
 const Index = () => (
   <div>
-    <h1>Robert</h1>
+    <Banner />
+    <h1>My Title</h1>
     Hello
   </div>
 );

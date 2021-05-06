@@ -5,9 +5,10 @@ module.exports = {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          'Playfair Display',
-          'Fira Sans'
-        ]
+          'Playfair Display\:300,400,700',
+          'Fira Sans\:300,400,700'
+        ],
+        display: 'swap'
       }
     }
   ],
