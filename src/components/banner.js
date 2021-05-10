@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Banner = () => (
-  <div className="banner-wrap bg-blue">
+  <div className="banner-wrap">
     <div className="banner text-white">
       <div className="font-weight-light mb-20">We Are</div>
       <h1>My Guessing Trading</h1>

@@ -18,6 +18,22 @@ h1, h2, h3, h4, h5, h6 {
   background: #0b6890;
 }
 
+footer {
+  background: url("/images/bg-footer.jpg") #b5b5b5 no-repeat center;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .site-title {
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 .header {
   height: 80px;
   display: flex;
@@ -49,6 +65,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url("/images/bg-img1.jpg") #b5b5b5 no-repeat center;
+  background-size: cover;
 }
 
 .banner {
@@ -58,4 +76,103 @@ h1, h2, h3, h4, h5, h6 {
 
 .banner-description {
   font-size: 0.875rem;
+}
+
+.home-sections {
+  margin-top: 80px;
+}
+
+.home-sections section {
+  margin-bottom: 80px;
+}
+
+.section-number {
+  font-size: 55px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #b5b5b5;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.s-odd .section-number::before {
+  content: "";
+  display: inline-block;
+  border-top: 0.1rem solid #0b6890;
+  width: 100px;
+  transform: translateY(-1rem);
+  position: absolute;
+  left: -110px;
+  bottom: 16px;
+}
+
+.s-odd .section-number::after{
+  content: "/";
+  position: absolute;
+  left: 80px;
+  bottom: -5px;
+  color: #0b6890;
+}
+
+.s-even .section-number {
+  text-align: right;
+}
+
+.s-even .section-number::before {
+  content: "/";
+  position: absolute;
+  right: 80px;
+  bottom: -5px;
+  color: #0b6890;
+}
+
+.s-even .section-number::after {
+  content: "";
+  display: inline-block;
+  border-top: 0.1rem solid #0b6890;
+  width: 100px;
+  transform: translateY(-1rem);
+  position: absolute;
+  right: -110px;
+  bottom: 16px;
+}
+
+.section-title-top, .section-title-bottom {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.section-title-top {
+  color: #0b6890;
+}
+
+.section-title-bottom {
+  color: #b5b5b5;
+}
+
+.section-description {
+  font-weight: 300;
+  font-size: 18px;
+  color: #313131;
+  margin-top: 40px;
+}
+
+.contact-block {
+  padding-top: 88px;
+}
+
+.contact-method {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #b5b5b5;
+  margin-bottom: 12px;
+}
+
+.contact-detail {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0b6890;
 }
