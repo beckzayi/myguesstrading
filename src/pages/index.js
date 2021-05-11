@@ -1,8 +1,9 @@
 import React from 'react';
 import Banner from '../components/banner';
+import Layout from '../components/layoutWithNoContainer';
 
 const Index = () => (
-  <div>
+  <Layout>
     <Banner />
 
     <div className="home-sections">
@@ -54,7 +55,7 @@ const Index = () => (
         </div>
       </section>
     </div>
-  </div>
+  </Layout>
 );
 
 export default Index;

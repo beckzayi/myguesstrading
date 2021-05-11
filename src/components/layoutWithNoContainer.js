@@ -4,19 +4,17 @@ import Header from './header';
 import Footer from './footer';
 import '../styles/global.css';
 
-const LayoutMdx = props => {
+const Layout = props => {
   return (
     <>
       <Head {...props} />
       <Header />
       <main id="content">
-        <div className="container mt-4 mb-4">
-          {props.children}
-        </div>
+        {props.children}
       </main>
       <Footer />
     </>
   );
 };
 
-export default LayoutMdx;
+export default Layout;

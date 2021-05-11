@@ -4,6 +4,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
+  color: #0b6890;
+  font-weight: 700;
 }
 
 .mt-20 {
@@ -65,7 +67,7 @@ footer .site-title {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("/images/bg-img1.jpg") #b5b5b5 no-repeat center;
+  background: url("/images/bg-img1.jpg") #0b6890 no-repeat center;
   background-size: cover;
 }
 
