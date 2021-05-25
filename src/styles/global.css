@@ -20,6 +20,23 @@ h1, h2, h3, h4, h5, h6 {
   background: #0b6890;
 }
 
+.text-grey {
+  color: #b5b5b5;
+}
+
+.btn-main {
+  background: #0b6890;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 0.875rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-main:hover {
+  background: #095d81;
+  color: white;
+}
+
 footer {
   background: url("/images/bg-footer.jpg") #b5b5b5 no-repeat center;
   background-size: cover;
@@ -177,4 +194,29 @@ footer .site-title {
   font-size: 22px;
   font-weight: 700;
   color: #0b6890;
+}
+
+.pricing-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.pricing-number {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+}
+
+.pricing-dollar {
+  font-family: "Playfair Display", serif;
+  position: relative;
+  top: -8px;
+  left: -5px;
+}
+
+.pricing-bill-info {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 0.875rem;
 }
